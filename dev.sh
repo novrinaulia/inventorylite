@@ -9,6 +9,6 @@ mintty -e php artisan serve &
 mintty -e npm run dev &
 
 # Menjalankan Queue Worker di jendela baru
-mintty -e php artisan queue:listen --tries=1 &
+# mintty -e php artisan queue:listen --tries=1 &
 
 echo "Semua proses telah dijalankan di jendela terpisah!"
